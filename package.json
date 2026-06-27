@@ -1,0 +1,19 @@
+{
+  "name": "trainaudit",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "api": "pnpm --filter @trainaudit/api dev",
+    "web": "pnpm --filter @trainaudit/web dev",
+    "dev": "pnpm --parallel --filter '@trainaudit/*' dev",
+    "build": "pnpm --filter '@trainaudit/*' build",
+    "typecheck": "pnpm --filter '@trainaudit/*' typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

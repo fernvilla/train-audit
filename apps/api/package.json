@@ -1,0 +1,6 @@
+{
+  "name": "@trainaudit/api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "TrainAudit API — AdonisJS v7, API mode"
+}

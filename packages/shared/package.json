@@ -1,0 +1,6 @@
+{
+  "name": "@trainaudit/shared",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Shared TypeScript types and schemas — introduced when needed"
+}
